@@ -52,7 +52,31 @@ body {
 .neutral-star {
     color: var(--main-bg-color)
 }
-
+/**Header**/
+header {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+.header-link {
+    text-decoration: none;
+    margin-left: 50px;
+    color: black;
+    padding: 7px;
+}
+.header-link:hover{
+    color: #0065FC;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    
+}
+.logo-booki {
+    width: 61.09px;
+    height: 19px;
+    margin: 30px 0px;
+    
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
