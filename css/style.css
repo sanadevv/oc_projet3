@@ -77,6 +77,105 @@ header {
     margin: 30px 0px;
     
 }
+/**bar de recherche**/
+.search-container{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    width: 23em;
+}
+form{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    }
+    
+.fa-location-dot {
+    color: black;
+    background-color: var(--main-bg-color);
+    padding: 16px;
+    border-radius: 15px 0px 0px 15px;}
+#recherche {
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    border: 1px solid var(--main-bg-color);
+    padding: 15px 20px;
+    }
+#recherche::placeholder{
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+    }
+.rechercher {
+    background-color: var(--main-color);
+    color: var(--main-bg-color);
+    border-radius: 0px 15px 15px 0px;
+    border: 0px;
+    padding: 15px 20px;
+    font-weight: 700;
+    }
+.fa-magnifying-glass{
+    background-color: var(--main-color);
+    color: var(--main-bg-color);  
+}
+.rechercher-mobile{
+    border-radius: 15px 15px 15px 15px;
+    border: 0px;
+    padding: 15px;
+    background-color: var(--main-color);
+}
+/**bar de filtre**/
+.filter-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    text-align:center;
+    flex-wrap: wrap;
+}
+.filter-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.bouton-filtre{
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    padding:10px 19px;
+    margin: 7.5px; 
+}
+.bouton-filtre:hover{
+    background-color: var(--filter-bg-color);
+}
+
+.filter-container .fa-solid{
+    color: var(--main-color);
+    margin-right: 10px;
+}
+/**bar d'info**/
+.info-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.fa-info {
+    color: var(--main-color);
+    border: 1px solid var(--main-bg-color);
+    width: 24px;
+    height: 24px;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 0px;
+
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
