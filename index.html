@@ -16,7 +16,8 @@
 
 <body>
     <div class="main-container">
-        <header><img src="images/logo/Booki.png" alt="logo de Booki" class="logo-booki">
+        <header>
+            <img src="images/logo/Booki.png" alt="logo de Booki" class="logo-booki">
             <nav>
               <a  href="#hebergements" class="header-link">Hébergements</a>
               <a  href="#activités" class="header-link">Activités</a>
@@ -24,27 +25,30 @@
         </header>
         <main>
             <section class="search-bar">
+             
                 <h1 class="section-title">
                     Trouvez votre hébergement pour des vacances de rêve
                 </h1>
                 <p>
                     En plein centre-ville ou en pleine nature
                 </p>
+              
                 <!--bar de recherche-->
                 <div class="search-container">
                   <form>
                      <label for="recherche"><i class="fa-solid fa-location-dot"></i></label>
                      <input type="search" name="recherche" id="recherche" placeholder="Marseille, France"> 
                      <button class="rechercher">Rechercher</button>
+                     <button class="rechercher-mobile"><i class="fa-solid fa-magnifying-glass"></i></button>
                   </form>
-                 <!-- <button class="rechercher-mobile"><i class="fa-solid fa-magnifying-glass"></i></button>-->
+                  
                 </div>
                 <!--bar de filtres-->
                 <div class="filter-container">
                  <div class="filter-title"><h3>Filtres</h3></div>
                  <div class="filter-buttons">
                      <button class="bouton-filtre"><i class="fa-solid fa-money-bill-wave"></i> Économique</button>
-                    <button class="bouton-filtre"><i class="fa-solid fa-child"></i> Familial</button>
+                    <button class="bouton-filtre"><i class="fa-solid fa-person"></i> Familial</button>
                     <button class="bouton-filtre"><i class="fa-solid fa-heart"></i> Romantique</button>
                     <button class="bouton-filtre"><i class="fa-solid fa-fire"></i> Nos pépites</button>
                  </div>
@@ -52,7 +56,7 @@
             <!--bar d'info-->
                 <div class="info-bar">
                <i class="fa-solid fa-info"></i>
-               <div> <p>Plus de 500 logements sont disponibles dans cette ville</p></div>
+               <div class="info-text"> <p>Plus de 500 logements sont disponibles dans cette ville</p></div>
             </div>           
             </section>
              <!--section hebergements à Marseille et les plus populaires-->
@@ -172,7 +176,7 @@
                         </article></a>
                         
                     </div>
-                    <h3>Afficher plus</h3> 
+                  <h3> <a href="#"> Afficher plus</a></h3>
                 </section>
                 <!--section les plus populaires-->
                 <section class="populaires">
