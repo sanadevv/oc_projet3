@@ -173,12 +173,13 @@ form{
 .fa-info {
     color: var(--main-color);
     border: 1px solid var(--main-bg-color);
-    width: 24px;
-    height: 24px;
+    width: 25px;
+    height: 14px;
     border-radius: 20px;
     text-align: center;
-    
-
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 a{
@@ -216,6 +217,7 @@ a{
     flex-wrap: wrap;       
     gap: 30px;
     margin: 30px 0px;
+    align-content: space-between;
 }
 .hebergements-cards a{   
     width: 30.5%;
@@ -468,7 +470,8 @@ li:first-child{
         padding: 0px 20px;
     }
     #recherche{
-        padding-right: 70px;
+        /* padding-right: 70px; */
+        width: 100%;
     }
     .rechercher{ 
         display: none;
@@ -479,11 +482,14 @@ li:first-child{
         right: 10px;
     } 
     .filter-buttons{
-        flex-wrap: wrap;
-    }
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }      
     .bouton-filtre{
         font-size: 14px;
-        width: 152px;
+        width: auto;
+        justify-content: left;
     }
     .info-text p{
         margin: 0px;
@@ -492,8 +498,8 @@ li:first-child{
     .info-bar .fa-info{
         font-size: 12px;
         font-weight: 600;
-        width: 40px;
-        padding-top: 5px;
+        width: auto;
+        padding: 5px 10px;
     }
     /* section populaires responsive phone*/
     body{
